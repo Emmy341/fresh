@@ -1,34 +1,94 @@
 *{
     box-sizing: border-box;
 }
+/*head section*/
 .head{
-    background-color: rgb(68, 112, 255);
-    float: none;
-    padding: 10px;
+    background-color: rgb(49, 138, 253);
+    text-align: center;
+}
+.head h1 {
+    color: white;
+    text-transform: uppercase;
+   
+}
+.head ul {
+    color: white;
+    flex: auto;
+   display:flex;
+   gap: 12px;
+   justify-content: center;
+   
+}
+/*section 1*/
+.sect_1{
+    display: flex;
+    columns: 2;
+    column-gap: 50px;
     
 }
-.head h1{
-   color: rgb(255, 255, 255);
-   text-align: center;
-   text-transform: uppercase;
-    
-}
-.list_1{
-display:flex;
-flex-direction: row;
-gap: 14px;
-list-style-type: square;
-padding: 23px;
-margin: 22px;
-font-size: 12px;
-color: white;
-text-align: center;
-
-}
-.sect_1 h3{
+.sect_1 aside{
     float: left;
-    gap: 12px;
+    font-size: 10px;
+    color:  rgb(49, 138, 253);
+    justify-content: center;
+    margin: 5 2;
 }
-article{
-    float: right;
+.sect_1 p{
+    color: rgb(0, 0, 0);
+    float: none;
+    justify-content: center;
+    margin: 5 2;
+}
+/*section 2*/
+.sect_2{
+    column-gap: 0px;
+    display: flex;
+}
+.sect_2 aside{
+    display: flex;
+    float: left;
+    font-size: 10px;
+    color:  rgb(49, 138, 253);
+    margin: 5 2;
+}
+.sect_2 ul{
+    color: rgb(0, 0, 0);
+    columns: 2;
+    justify-content: center;
+    margin: 5 2;
+}
+/*section 3*/
+sect_3{
+    
+    display: flex;
+    column-gap: 80px;
+}
+.sect_3 aside{
+    display: flex;
+    float: left;
+    font-size: 10px;
+    color:  rgb(49, 138, 253);
+    margin: 5 2;
+    justify-content: center;
+    
+}
+.sect_3 ul{
+    color: rgb(0, 0, 0);
+    columns: 3;
+    column-gap: 30;
+    display: inline;
+    
+}
+/*section 4*/
+.sect_4{
+    display: flex;
+    columns: 2;
+    column-gap: 50px;
+}
+.sect_4 aside{
+    display: flex;
+    float: left;
+    font-size: 10px;
+    color:  rgb(49, 138, 253);
+    margin: 5 2;
 }
